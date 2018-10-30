@@ -56,37 +56,37 @@ class AddEmployee extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
                         <label className="bmd-label-floating">Emp Name</label>
-                        <input onChange={this.handleChange} type="text" className="form-control" id="emp_name" name="emp_name" />
+                        <input required onChange={this.handleChange} type="text" className="form-control" id="emp_name" name="emp_name" />
                     </div>
 
                     <div className="form-group">
                         <label className="bmd-label-floating">Emp Email</label>
-                        <input onChange={this.handleChange} type="text" className="form-control" id="emp_email" name="emp_email" />
+                        <input required onChange={this.handleChange} type="text" className="form-control" id="emp_email" name="emp_email" />
                     </div>
 
                     <div className="form-group">
                         <label className="bmd-label-floating">Emp Code</label>
-                        <input onChange={this.handleChange} type="text" className="form-control" id="emp_code" name="emp_code" />
+                        <input required onChange={this.handleChange} type="text" className="form-control" id="emp_code" name="emp_code" />
                     </div>
 
                     <div className="form-group">
                         <label className="bmd-label-floating">Emp Designation</label>
-                        <input onChange={this.handleChange} type="text" className="form-control" id="emp_designation" name="emp_designation" />
+                        <input required onChange={this.handleChange} type="text" className="form-control" id="emp_designation" name="emp_designation" />
                     </div>
 
                     <div className="form-group">
                         <label className="bmd-label-floating">Street</label>
-                        <input onChange={this.handleChange} type="text" className="form-control" id="emp_street" name="emp_street" />
+                        <input required onChange={this.handleChange} type="text" className="form-control" id="emp_street" name="emp_street" />
                     </div>
 
                     <div className="form-group">
                         <label className="bmd-label-floating">City</label>
-                        <input onChange={this.handleChange} type="text" className="form-control" id="emp_city" name="emp_city" />
+                        <input required onChange={this.handleChange} type="text" className="form-control" id="emp_city" name="emp_city" />
                     </div>
 
                     <div className="form-group">
                         <label className="bmd-label-floating">State</label>
-                        <input onChange={this.handleChange} type="text" className="form-control" id="emp_state" name="emp_state" />
+                        <input required onChange={this.handleChange} type="text" className="form-control" id="emp_state" name="emp_state" />
                     </div>
 
                     <div className="form-group">

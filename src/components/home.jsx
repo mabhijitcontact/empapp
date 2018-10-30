@@ -17,7 +17,10 @@ class Home extends Component {
             employees.map(user =>{
                 return (<div className="post card" key={user._id}>
                     <div className="card-content">
-                        {user.emp_name}
+                        {user.emp_name} <br />
+                        {user.emp_email} <br />
+                        {user.emp_designation}
+
                     </div>
                 </div>);
             })
